@@ -39,6 +39,38 @@
       "type": "outcome",
       "createdAt": "2022-11-11T19:58:49.566Z",
       "id": 5
+    },
+    {
+      "description": "transferencia para J",
+      "price": 20,
+      "category": "",
+      "type": "outcome",
+      "createdAt": "2022-11-15T19:59:37.163Z",
+      "id": 6
+    },
+    {
+      "description": "compra camisa",
+      "price": 90,
+      "category": "vestuario",
+      "type": "outcome",
+      "createdAt": "2022-11-15T20:48:29.026Z",
+      "id": 7
+    },
+    {
+      "description": "trasnferencia b",
+      "price": 10,
+      "category": "trasferencia",
+      "type": "outcome",
+      "createdAt": "2022-11-15T21:17:23.272Z",
+      "id": 8
+    },
+    {
+      "description": "transferencia C",
+      "price": 40,
+      "category": "trasferencia",
+      "type": "outcome",
+      "createdAt": "2022-11-15T21:46:33.753Z",
+      "id": 9
     }
   ]
 }
