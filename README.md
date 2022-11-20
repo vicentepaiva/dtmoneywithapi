@@ -20,14 +20,14 @@ O usuário também pode realizar o logout da aplicação
 
 # Este projeto foi feito utilizando as seguintes tecnologias:
 
-React
-Typescript
-Phosphor
-Styled Components
-Radix UI
-Json Server
-React Hook Form
-Zod
+. React
+. Typescript
+. Phosphor
+. Styled Components
+. Radix UI
+. Json Server
+. React Hook Form
+. Zod
 
 # Instalação e uso:
 
