@@ -31,7 +31,7 @@ O usuário também pode realizar o logout da aplicação
 
 # Instalação e uso:
 
-Ao baixar a aplicação instlar as dependências "npm i",
+Ao baixar a aplicação instalar as dependências "npm i",
 
 Após as dependências instaladas "npm run dev", para rodar a aplicação.
 
