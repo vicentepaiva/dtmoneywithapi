@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import {
+  ButtonLogout,
   HeaderContent,
   HeaderContiner,
   NewTransctionButton,
@@ -9,8 +11,23 @@ import logoImg from "../../assets/logo.svg";
 import * as Dialog from "@radix-ui/react-dialog";
 import { NewTransactionModal } from "../NewTransactioModal";
 import { NewTransferModal } from "../NewTransfer";
+import { AuthContext } from "../../contexts/Auth/AuthContext";
+import { useNavigate } from 'react-router-dom';
+
+
+
+
 
 export function Header() {
+  const auth = useContext(AuthContext)
+  const navigate = useNavigate();
+
+  async function handleLogout() {
+    await auth.signOut();
+    navigate('/?');
+  }
+
+  
   return (
     <div>
       <HeaderContiner>
@@ -30,7 +47,11 @@ export function Header() {
             </Dialog.Trigger>
             <NewTransferModal />
           </Dialog.Root>
-          
+
+
+         <ButtonLogout onClick={handleLogout}>
+              clique aqui para sair.
+          </ButtonLogout>  
         </HeaderContent>
       </HeaderContiner>
     </div>

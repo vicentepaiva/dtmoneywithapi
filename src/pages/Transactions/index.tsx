@@ -1,11 +1,11 @@
-
-
 import { useContextSelector } from "use-context-selector";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 import { SearchForm } from "./components";
+
+
 
 import {
   PriceHightLight,
